@@ -1,0 +1,5 @@
+这是一个mt7628的IRQ驱动和APP
+内核模块和APP使用了等待队列wait_queue来通信
+基于openwrt 18.06
+放到openwrt源码目录package下
+make menuconfig选中这个驱动和APP编译即可.
